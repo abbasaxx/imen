@@ -1,0 +1,9 @@
+error_log
+.vscode
+.well-known
+vendor
+.worktrees/
+.superpowers/
+app/node_modules/
+app/dist/
+.claude

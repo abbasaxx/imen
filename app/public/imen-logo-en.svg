@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 76">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon rounded square -->
+  <rect x="4" y="4" width="68" height="68" rx="18" fill="url(#bg)"/>
+
+  <!-- Shield -->
+  <path d="M38 13 L64 23 L64 46 C64 61 52 69 38 74 C24 69 12 61 12 46 L12 23 Z"
+        fill="url(#shield)"/>
+
+  <!-- Shield inner ring -->
+  <path d="M38 19 L59 27 L59 46 C59 58 50 65 38 69 C26 65 17 58 17 46 L17 27 Z"
+        fill="none" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+
+  <!-- Checkmark -->
+  <polyline points="25,45 36,56 53,35"
+            fill="none" stroke="#ffffff" stroke-width="5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Imen text -->
+  <text x="86" y="55"
+        font-family="'Helvetica Neue',Arial,sans-serif"
+        font-size="50" font-weight="800" letter-spacing="-1"
+        fill="url(#word)">Imen</text>
+</svg>

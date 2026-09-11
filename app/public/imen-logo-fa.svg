@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 76">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="word" x1="1" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon rounded square (RIGHT side) -->
+  <rect x="218" y="4" width="68" height="68" rx="18" fill="url(#bg)"/>
+
+  <!-- Shield -->
+  <path d="M252 13 L278 23 L278 46 C278 61 266 69 252 74 C238 69 226 61 226 46 L226 23 Z"
+        fill="url(#shield)"/>
+
+  <!-- Shield inner ring -->
+  <path d="M252 19 L273 27 L273 46 C273 58 264 65 252 69 C240 65 231 58 231 46 L231 27 Z"
+        fill="none" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+
+  <!-- Checkmark -->
+  <polyline points="239,45 250,56 267,35"
+            fill="none" stroke="#ffffff" stroke-width="5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ایمن text (RIGHT-to-LEFT, anchored to end at x=204) -->
+  <text x="204" y="55"
+        font-family="'Vazirmatn','Tahoma','Arial',sans-serif"
+        font-size="50" font-weight="800"
+        text-anchor="end"
+        fill="url(#word)">ایمن</text>
+</svg>
